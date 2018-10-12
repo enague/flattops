@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+//-------------------------NAV BAR -------------------------//
+
+//-------------------------ABOUT -------------------------//
+@mixin about {
+  display: flex;
+  justify-content: center;
+  padding: 20px
+}
+
+.about{
+  @include about
+} 
+
+
+//-------------------------LANDING -------------------------//
+@mixin landing {
+  background: black;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.landing {
+  @include landing
+} 
+
+//-------------------------FOOTER -------------------------//
+
+.footer {
+  color: white;
+  background: black;
+  padding: 30px;
+}
+
+
